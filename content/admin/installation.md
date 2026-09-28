@@ -48,6 +48,8 @@ return [
 
 For more details see the [configuration]({{% ref "configuration" %}}) page.
 
+The only config option you have to set is the `Application URL` which is required to securely generate e-mail links.
+
 ## Webserver
 
 ### Apache

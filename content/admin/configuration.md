@@ -408,6 +408,15 @@ Multiplies 'night shifts' between start and end (numbers as hours) by multiplier
 
 Customizes the application name displayed throughout the interface
 
+### Application URL
+* Name: `url`
+* Type: `url`
+* Env var: `APP_URL`
+* Default: `null`
+* Required
+
+URL of the installation (incl. protocol, domain and optional path, i.e. https://angel.example.com/helping). Required to generate links in emails.
+
 ### Languages
 * Name: `locales`
 * Type: `select_multi`
@@ -679,14 +688,6 @@ Whether the login and registration via password should be enabled (login will be
 * Default: `null`
 
 URL to external registration page, linked from login page
-
-### Application URL
-* Name: `url`
-* Type: `url`
-* Env var: `APP_URL`
-* Default: `null`
-
-URL and base path to use instead of the auto-detected one
 
 ### API key for /metrics
 * Name: `api_key`
