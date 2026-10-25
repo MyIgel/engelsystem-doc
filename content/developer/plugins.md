@@ -148,7 +148,7 @@ A list of middlewares to be loaded on every request.
 
 ##### event_handlers
 
-Event handlers mapping to hook on any Engelsystem changes.
+[Event](events.md) handlers mapping to hook on any Engelsystem changes.
 
 ##### config_options
 
